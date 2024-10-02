@@ -1,6 +1,6 @@
-
+<font color="aqua">
 **I designed this landing page with a mobile-first approach, prioritizing an exceptional UI/UX experience for mobile users.**
-
+</font>
 
 *OctaNet Landing Page* 📈
 

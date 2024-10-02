@@ -1,3 +1,7 @@
+
+**I designed this landing page with a mobile-first approach, prioritizing an exceptional UI/UX experience for mobile users.**
+
+
 *OctaNet Landing Page* 📈
 
 

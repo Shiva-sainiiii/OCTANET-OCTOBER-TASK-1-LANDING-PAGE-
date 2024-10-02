@@ -1,6 +1,3 @@
-Here's the updated README with formal emojis:
-
-
 *OctaNet Landing Page* 📈
 
 
@@ -66,11 +63,3 @@ Shiva
 
 - OctaNet Pvt Ltd for providing the internship opportunity 🙏
 - GSAP animation library for enhancing the user experience
-
-
-*Commit Message Guidelines*
-
-
-- Feature additions: `feat: [feature name]` 🎉
-- Bug fixes: `fix: [bug description]` 🐛
-- Improvements: `improve: [improvement description]` 💪

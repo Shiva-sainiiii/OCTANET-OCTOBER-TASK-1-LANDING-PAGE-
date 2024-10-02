@@ -1,0 +1,362 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212; /* Dark Background */
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+box-shadow:0px 0px 10px 1px white;;
+  border-bottom-left-radius: 50px;
+  color: aqua; /* Light Text */
+  background-color: #1e1e1e; /* Slightly Lighter Dark */
+  padding: 20px 0;
+}
+
+nav {  
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 40px;
+  padding-right: 20px;
+}
+
+.fa-bars {
+  font-size: 3vh;
+}
+
+.logo a {
+  color: aqua; /* Light Text */
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #f0f0f0; /* Light Text */
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #7fbcff; /* Light Blue */
+}
+
+/* Hamburger Menu for Mobile */
+.nav-toggle {
+  background-color: #1e1e1e; /* Dark */
+  display: none;
+}
+
+.hamburger {
+  width: 25px;
+  height: 2px;
+  background-color: #f0f0f0; /* Light Text */
+  position: relative;
+}
+
+.hamburger::before, .hamburger::after {
+  content: '';
+  width: 25px;
+  height: 2px;
+  background-color: #f0f0f0; /* Light Text */
+  position: absolute;
+  left: 0;
+  transition: 0.3s;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger::after {
+  top: 8px;
+}
+
+/* Hero Section */
+.hero {
+
+  background-position: center;
+  color: #f0f0f0; /* Light Text */
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #7fbcff; /* Light Blue */
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #7fbcff; /* Light Blue */
+  color: #1e1e1e; /* Dark */
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #66a3e0; /* Darker Light Blue */
+}
+
+/* Features Section */
+.features {
+  margin-bottom:10px;
+box-shadow:0px 0px 10px 1px white;;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: #1e1e1e; /* Dark Background */
+  color: #f0f0f0; /* Light Text */
+  text-align: center;
+
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.feature {
+  max-width: 300px;
+}
+
+.feature h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #7fbcff; /* Light Blue */
+}
+
+.feature p {
+  font-size: 16px;
+}
+
+/* About Section */
+.about {
+  padding: 50px 20px;
+  background-color: #121212; /* Darker Background */
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #7fbcff; /* Light Blue */
+}
+
+.about-content p {
+  font-size: 18px;
+  color: #cccccc; /* Muted Light Text */
+}
+
+/* Testimonials Section */
+.testimonials {
+margin-bottom:10px;
+box-shadow:0px 0px 10px 1px white;;
+  border-top-right-radius: 50px;
+  background-color: #1e1e1e; /* Dark Background */
+  padding: 50px 20px;
+  border-bottom-left-radius: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.testimonials h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #7fbcff; /* Light Blue */
+}
+
+.testimonial-grid {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonial {
+  max-width: 300px;
+  background-color: #121212; /* Darker Background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.testimonial p {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #f0f0f0; /* Light Text */
+}
+
+.testimonial h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #7fbcff; /* Light Blue */
+}
+
+/* Contact Section */
+.contact {
+margin-top:50px;
+margin-bottom:10px;
+box-shadow:0px 0px 10px 1px white;;
+  margin-bottom: 10px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #1e1e1e; /* Dark Background */
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #7fbcff; /* Light Blue */
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #333;
+  background-color: #121212; /* Darker Background */
+  border-radius: 5px;
+  font-size: 16px;
+  color: #f0f0f0; /* Light Text */
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.submit-btn {
+  background-color: #7fbcff; /* Light Blue */
+  color: #1e1e1e; /* Dark */
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #66a3e0; /* Darker Light Blue */
+}
+
+/* Footer Section */
+footer {
+border-top-left-radius:50px;
+border-top-right-radius:50px;
+box-shadow:0px 0px 10px 1px white;;
+  background-color: #1e1e1e; /* Dark Background */
+  color: #f0f0f0; /* Light Text */
+  padding: 20px;
+  margin-top:50px;
+  text-align: center;
+}
+
+footer i {
+  color: aqua; /* Light Text */
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+margin-top:10px;
+}
+
+.social-links li {
+  margin-left: 15px;
+}
+
+.social-links a {
+  color: #f0f0f0; /* Light Text */
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #7fbcff; /* Light Blue */
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-toggle {
+    display: block;
+    cursor: pointer;
+  }
+  .hero-content h1 {
+    font-size: 36px;
+  }
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 28px;
+  }
+  .hero-content p {
+    font-size: 16px;
+  }
+  .cta-button {
+    font-size: 14px;
+  }
+  .testimonial-grid {
+    flex-direction: column;
+  }
+  .contact-form {
+    padding: 0 20px;
+  }
+}

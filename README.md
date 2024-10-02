@@ -43,9 +43,11 @@ A modern, responsive, and dark-themed landing page built for OctaNet Pvt Ltd as 
 
 
 [Live Demo]: 
+
 https://shiva-sainiiii.github.io/OCTANET-OCTOBER-TASK-1-LANDING-PAGE-/
 
 [GitHub Repository]: 
+
 https://github.com/Shiva-sainiiii/OCTANET-OCTOBER-TASK-1-LANDING-PAGE-
 
 
